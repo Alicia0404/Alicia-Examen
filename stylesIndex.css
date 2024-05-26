@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f76ec5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c6027e;
+    background: #c6027e;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+header img.chat {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+header img.chien {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #c6027e;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    background-color: #c6027e;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+footer{
+    background-color: #c6027e;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+}
+
