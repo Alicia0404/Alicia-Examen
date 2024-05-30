@@ -26,13 +26,13 @@ header h1 {
 }
 
 header img.chat {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
 }
 header img.chien {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
 }
 
@@ -65,10 +65,20 @@ nav ul li a {
 }
 
 section {
+    display: flex;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     margin: 20px;
+}
+
+section img{
+    height: 100px;
+    width: 100px;
+}
+
+class {
+    padding: 20px;
 }
 
 footer{
