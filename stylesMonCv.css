@@ -58,6 +58,12 @@ section {
     margin: 20px;
 }
 
+section img{
+    height: 200px;
+    width: 200px;
+}
+
+
 section h2 {
     color: #c6027e;
     margin-bottom: 10px;
